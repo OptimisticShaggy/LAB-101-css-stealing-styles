@@ -1,0 +1,59 @@
+body {
+  background: url(https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.8;
+}
+
+h2#title {
+  font-size: 10em;
+}
+
+span#red:hover {
+  color: red;
+}
+
+span#purple:hover {
+  color: purple;
+}
+
+span#pink:hover {
+  color: pink;
+}
+
+span#blue:hover {
+  color: blue;
+}
+
+span#cyan:hover {
+  color: cyan;
+}
+
+span#green:hover {
+  color: green;
+}
+
+span#lime:hover {
+  color: lime;
+}
+
+span#yellow:hover {
+  color: yellow;
+}
+
+button#searchBtn:hover {
+  transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+button#searchBtn:active {
+  background-color: #f6f9fc;
+    transform: translateY(1px);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+input#searchBox:active {
+  border-color: #386ca7;
+}
